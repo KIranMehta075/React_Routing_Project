@@ -1,0 +1,52 @@
+.modal{
+    background-image: url("../../assets/images/video-analytics-bg.png");
+}
+ .modal-header{
+    padding: 0.5rem 1rem;
+    border-bottom:none;
+}
+
+/*.modal-dialog-centered{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
+
+.modal-content{
+    background-color: rgba(255,255,255,1);
+}
+
+
+
+.spinner-border{
+    color: #FB4E0B !important;
+    width: 5rem;
+    height: 5rem;
+
+}
+
+.progress-bar{
+    background-color: #FB4E0B;
+}
+
+.modal-header .btn-close {
+    
+    color: #FB4E0B;
+    /* border-color: #FB4E0B; */
+}
+
+.modal-content .btn-secondary {
+    color: #fff;
+    background-color: #FB4E0B;
+    border-color: #FB4E0B;
+}
+
+.modal-footer {
+    border-top: none;
+}
+
+.btn-close:focus {
+    box-shadow: none;
+}

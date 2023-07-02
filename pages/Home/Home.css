@@ -1,0 +1,75 @@
+.home-page-container {
+  width: 100%;
+  background-image: url("../../assets/images/video-analytics-bg.png");
+  min-height: 100vh;
+  overflow-y: auto;
+}
+.home-page {
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.heading h1,
+.heading h5 {
+  color: #ffffff;
+}
+.home-container {
+  position: absolute;
+  height: auto;
+  border-radius: 10px;
+  padding: 0 20px 20px 20px;
+  right: 0;
+  top: 80px;
+  width: 90%;
+}
+
+.home-container-with-nav{
+  margin-left:250px;
+  /* position: absolute; */
+  height: auto;
+  padding: 0 20px 20px 20px;
+  right: 0;
+  top: 80px;
+  transition: 350ms;
+}
+
+.border-bottom {
+  margin-top: 5px;
+  border-bottom: 1px solid gray !important;
+}
+
+.home-card-container {
+  margin-bottom: 1em;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.home-card-container:hover,
+.home-card-container.clicked:hover {
+  color: #414141;
+}
+
+.home-page-container .card{
+  width: 250px;
+  background-color: rgba(0,0,0,0);
+}
+
+/* .home-page-container .card-body{
+ padding: 1rem 2rem 1rem 0rem;
+} */
+
+.home-page-container .img-fluid{
+  width: 60px;
+  height: 60px;
+  background-color: #ffffff;
+  border-radius: 45px;
+}
+
+.home-page-container .img-fluid:hover {
+  background-color: #fb4e0b;
+}
+
+.home-page-container .border-bt{
+ border-bottom: 2px solid #ffffff;
+}

@@ -1,0 +1,123 @@
+.image-logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 80px;
+  height: auto;
+  z-index: 1;
+  border: none;
+}
+
+.login-form {
+  background-image: url("../../assets/images/login-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.login-container {
+  position: absolute;
+  right: 5%;
+  z-index: 1;
+  width: 100%;
+  bottom: 0px;
+}
+.login-form-data {
+  position: absolute;
+  right: 5%;
+  z-index: 1;
+  width: 35%;
+  color: #f2f2f2;
+  font-size: 35px;
+  text-align: center;
+  bottom: 490px;
+}
+
+.login-form-container {
+  position: absolute;
+  bottom: 70px;
+  right: 5%;
+  z-index: 1;
+  width: 35%;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  border: 1px solid #adadad;
+  /* background-color:  #adadad; */
+}
+
+.login-form-container img {
+  width: 80px;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  top: -25%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.login-form-container .title {
+  font-size: 25px;
+  font-weight: 500;
+  color: #000000;
+  max-width: 320px;
+  padding: 10px 20px 0px 20px;
+}
+
+.login-form-container form {
+  height: auto;
+  opacity: 0.8;
+  padding: 10px 20px;
+}
+
+.login-form-container #form > div .input-field,
+.button {
+  border: 1px solid #adadad;
+  padding: 0.5em 0.9em;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.login-form-container #form > .input-group {
+  margin-bottom: 1.5em;
+  height: 80px;
+}
+
+.login-form-container #form > div .input-field-errors {
+  border: 1px solid #fb4e0b;
+}
+
+.login-form-container #form > .input-group span {
+  color: #fb4e0b;
+  display: flex;
+  font-size: 14px;
+}
+
+.login-form-container #form > div .input-field:focus {
+  outline: none;
+}
+
+.login-form-container #form > div .input-field-label {
+  display: flex;
+  justify-content: flex-start;
+  color: #000000;
+  font-size: 14px;
+}
+
+.login-form-container #form > .button {
+  background-color: #fb4e0b;
+  color: #ffffff;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.login-form-container .remember-me-label {
+  display: flex;
+}
+.login-form-container .remember-me-label span {
+  color: #000000;
+  font-size: 12px;
+}
+
+.login-form-container input[type="checkbox" i] {
+  background-color: #adadad !important;
+}

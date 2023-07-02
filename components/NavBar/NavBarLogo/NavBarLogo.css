@@ -1,0 +1,21 @@
+.navbar {
+  top: 0;
+  width: 100%;
+  background-color: #fb4e0b;
+}
+.nav-bar-logo .navbar-brand {
+  width: 80px;
+  height: auto;
+  color: #ffffff;
+}
+
+.nav-bar-logo > .container-fluid {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-bar-logo .text-white {
+  border-left: 2px solid #ffffff;
+}
